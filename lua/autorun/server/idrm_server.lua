@@ -11,13 +11,13 @@ if SERVER then
         end
         file.CreateDir("idrm") /* We need an idrm folder inside data/ */
         ICEMAN_DRM_FETCH = http.Fetch
-        ICEMAN_DRM_URL = 'http://localhost/'
+        ICEMAN_DRM_URL = 'http://localhost/' 
         ICEMAN_DRM_INIT_BOOL = false  
         ICEMAN_DRM = ICEMAN_DRM or {}
         ICEMAN_DRM_NEXTTHINK = CurTime()+3
         ICEMAN_DRM_CURTIME = 0
         ICEMAN_DRM_START_SYS = CurTime()
-        ICEMAN_DRM_END_SYS = CurTime()
+        ICEMAN_DRM_END_SYS = CurTime() 
         ICEMAN_DRM_ADDONS={} /* where we store our addons registration data and keys. */
         /* WE need to register each addon but DRM server will check if your addon is exist or available. */
         function ICEMAN_DRM_ADDON_REGISTER(id)
