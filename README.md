@@ -1,3 +1,3 @@
 # iceman-drm
 
-DRM to protect my code from people who tries to ruin my profit from my addons.
+DRM for protecting your codes from hackers and others who would damage your success.
